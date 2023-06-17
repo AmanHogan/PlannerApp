@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Planner">
+        <menu>
+            <item android:id="@+id/nav_dashboard_summary"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Dashboard"/>
+            <item android:id="@+id/nav_today_agenda"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Agenda"/>
+            <item android:id="@+id/nav_tasks"
+                android:icon="@drawable/ic_baseline_task_24"
+                android:title="Tasks"/>
+            <item android:id="@+id/nav_calendar"
+                android:icon="@drawable/ic_baseline_calendar_month_24"
+                android:title="Calendar"/>
+            <item android:id="@+id/nav_events"
+                android:icon="@drawable/ic_baseline_event_24"
+                android:title="Events"/>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Study">
+        <menu>
+            <item android:id="@+id/nav_flashcards"
+                android:icon="@drawable/ic_baseline_library_books_24"
+                android:title="Flashcards"/>
+            <item android:id="@+id/nav_notes"
+                android:icon="@drawable/ic_baseline_notes_24"
+                android:title="Notes"/>
+            <item android:id="@+id/nav_classes"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="Classes"/>
+            <item android:id="@+id/nav_grades"
+                android:icon="@drawable/ic_baseline_school_24"
+                android:title="Grades"/>
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings"/>
+
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>
